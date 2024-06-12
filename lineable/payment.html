@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>model of payment gatway</title>
+    <style>
+        .main-container{
+           display: flex;
+           justify-content: center;
+           background: #e6dbdb;
+           gap: 3rem;
+        
+    
+          
+        }
+        .sub-details{
+            display: flex;
+            gap: 1rem;
+        }
+        input{
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">hello</h1>
+    <div class="main-container">
+        
+        <!-- billing address of div -->
+        <div class="billing-address">
+            <label for="name"> Full Name :</label><br>
+            <input type="text" name="name" id="fname" placeholder="enter your name">
+            <br>
+            <label for="email">Email :</label><br>
+            <input type="email" name="email" id="femail" placeholder="email@example.com">
+            <br>
+            <label for="address">Address :</label><br>
+            <input type="address" name="address" id="faddress" placeholder="room-street-location">
+            <br>
+            <label for="city">City : </label><br>
+            <input type="city" name="city" id="fcity" placeholder="Lucknow..">
+            <br>
+            <label for="state">State :</label><br>
+            <input type="state" name="state" id="fstate" placeholder="Lucknow..">
+            <br>
+            
+            <div class="sub-details">
+                <div class="year">
+                   <label for="exp-year">Exp Year</label><br>
+                   <input type="text" name="exp-year" id="fexp-year">
+                </div>
+ 
+                <div class="cvv">
+                 <label for="cvv">CVV</label><br>
+                 <input type="text" name="cvv" id="fcvv">
+                </div>
+            </div>
+           
+            
+
+        </div>
+        <!-- payment method of div -->
+        <div class="payment">
+            <label for="card-accepted">Card Accepted :</label><br>
+            <img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt="">
+
+           <label for="Ncards">Name On Card:</label><br>
+           <input type="text" name="Ncard" id="fNcard" placeholder="mr. example">
+           <br>
+           <label for="credit-car-number">Credit Car Number:</label><br>
+           <input type="text" name="credit-car-number" id="fcredit-car-number" placeholder="1111-2222-3333-4444">
+           <br>
+           <label for="exp">Exp Month:</label><br>
+           <input type="exp" name="exp" id="fexp" placeholder="mr. example">
+           <br>
+           <label for="exp">Exp Month:</label><br>
+           <input type="exp" name="exp" id="fexp" placeholder="mr. example">
+           <br>
+           <div class="sub-details">
+               <div class="year">
+                  <label for="exp-year">Exp Year</label><br>
+                  <input type="text" name="exp-year" id="fexp-year">
+               </div>
+
+               <div class="cvv">
+                <label for="cvv">CVV</label><br>
+                <input type="text" name="cvv" id="fcvv">
+               </div>
+           </div>
+
+
+        </div>
+
+    </div>
+</body>
+</html>

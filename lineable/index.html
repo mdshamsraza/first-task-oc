@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-page</title>
+    <style>
+        .header-main{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        }
+        .container{
+            background:  rgb(220, 132, 255);
+            border-radius: 0.5rem;
+            height: 42rem;
+        }
+        .container a{
+            display: block;
+            width: 60px;
+            padding: 1rem 0rem;
+            padding-right: 1.5rem;
+            text-decoration: none;
+            font-weight: 800;
+            font-size: larger;
+            color: rgb(20, 0, 136);
+        }
+        .sub-content{
+            display: flex;
+            justify-content: space-between;
+        }
+        .sub-content-img{
+            padding: 0rem 1rem;
+            width: 100%;
+            
+        }
+        .sub-content-img img{
+            width: 100%;
+            border-radius: 0.4rem;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        }
+        .sub-content-discription{
+            background-color:  rgb(220, 132, 255);
+            padding: 0rem 1rem;
+            border-radius: 0.5rem;
+           box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        }
+        .sub-content-discription h1 p{
+            padding: 0rem 0.5rem;
+            text-align: justify;
+
+        }
+        .sub-content-discription button{
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            border: none;
+            background-color: rgb(1, 138, 44);
+            color: white;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+            cursor: pointer;
+            
+        }
+        .sub-content-discription button:hover {
+            background-color: rgb(14, 114, 255);
+        }
+        .super-content-discription{
+            background-color:  rgb(220, 132, 255);
+            margin-left: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 0.5rem;
+            padding: 0.5rem 1rem;
+            text-align: justify;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        }
+        .super-content-discription p::first-line{
+           color: rgb(164, 0, 0);
+        }
+        @media screen and (max-width: 1047px) {
+            .sub-content-img img{
+                display: none;
+            }
+            .sub-content{
+                display: grid;
+                margin-left: 1rem;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <section class="header-main">
+        <header class="container">
+            <ul>
+                <a href="link.html" >Link-1</a>
+                <a href="#" >Link-2</a>
+                <a href="#" >Link-3</a>
+            </ul>
+        </header>
+        <main class="content">
+          
+            <div class="sub-content">
+                <div class="sub-content-img">
+                    <img src="/img/martin-sanchez-z2v23KWm5D0-unsplash.jpg"alt="">
+                </div>
+
+                <div 
+                class="sub-content-discription">
+            
+                    <h1 style="color: rgb(20, 0, 136);">World Health Organization (WHO)</h1>
+                    <p>The World Health Organization (WHO) is a specialized agency of the United Nations responsible for international public health.[2] It is headquartered in Geneva, Switzerland, and has six regional offices[3] and 150 field offices worldwide.[4]
+
+                        The WHO was established on April 7, 1948, and convened its first meeting on July 24 of that year.[5][6] It incorporated the assets, personnel, and duties of the League of Nations' Health Organization and the Paris-based Office International d'Hygiène Publique,</p>
+                    <button type="button">Learn More</button>
+                </div>
+            </div>
+
+            <div class="super-content-discription">
+                <h1 style="color: rgb(20, 0, 136);">Policies and objectives</h1>
+                <p>The WHO's Constitution states that its objective "is the attainment by all people of the highest possible level of health".[48]
+                  <br><br>
+                    The WHO fulfils this objective through its functions as defined in its Constitution: (a) To act as the directing and coordinating authority on international health work; (b) To establish and maintain effective collaboration with the United Nations, specialized agencies, governmental health administrations, professional groups and such other organizations as may be deemed appropriate; (c) To assist Governments, upon request, in strengthening health services; (d) To furnish appropriate technical assistance and, in emergencies, necessary aid upon the request or acceptance of Governments; (e) To provide or assist in providing, upon the request of the United Nations, health services and facilities to special groups, such as the peoples of trust territories; (f) To establish and maintain such administrative and technical services as may be required, including epidemiological and statistical services; (g) To stimulate and advance work to eradicate epidemic, endemic and other diseases; (h) To promote, in co-operation with other specialized agencies where necessary, the prevention of accidental injuries; (i) To promote, in co-operation with other specialized agencies where necessary, the improvement of nutrition, housing, sanitation, recreation, economic or working conditions and other aspects of environmental hygiene; (j) To promote co-operation among scientific and professional groups which contribute to the advancement of health; (k) To propose conventions, agreements and regulations, and make recommendations with respect to international health matters and to perform (Article 2 of the Constitution).</p>
+            </div>
+        </main>
+    </section>
+
+</body>
+</html>
